@@ -1,0 +1,1 @@
+cmd_/home/user/Documents/hw2_os/page_table_driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/user/Documents/hw2_os/page_table_driver.ko /home/user/Documents/hw2_os/page_table_driver.o /home/user/Documents/hw2_os/page_table_driver.mod.o ;  true
